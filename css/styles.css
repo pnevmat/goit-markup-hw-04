@@ -117,6 +117,9 @@
         url("../img/noteboock.jpg");
     background-size: cover;
 }
+.ul.items {
+    align-content: flex-end;
+}
 /* our team */
 .teammate-name {
     font-weight: 500;

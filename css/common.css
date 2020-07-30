@@ -134,13 +134,13 @@ ul {
 .ul.follow-us {
     flex-direction: column;
     align-items: flex-start;
-    margin-top: 12px;
+    /* margin-top: 12px; */
     margin-left: 147px;
 }
 .ul.subscribe {
     flex-direction: column;
     align-items: flex-start;
-    margin-top: 12px;
+    /* margin-top: 12px; */
     margin-left: 94px;   
 }
 .ul .footer-item:not(:last-child) {

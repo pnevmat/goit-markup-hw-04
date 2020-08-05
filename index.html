@@ -17,20 +17,28 @@
                 </a>
                 <nav class="nav">
                     <ul class="ul">
-                        <li class="item"><a href="./index.html" class="nav-link current">Студия</a></li>
-                        <li class="item"><a href="./portfolio.html" class="nav-link">Портфолио</a></li>
-                        <li class="item"><a href="" class="nav-link">Контакты</a></li>
+                        <li class="item"><a href="./index.html" class="nav-link current">Студия<div class="decor"></div></a></li>
+                        <li class="item"><a href="./portfolio.html" class="nav-link">Портфолио<div class="decor"></div></a></li>
+                        <li class="item"><a href="" class="nav-link">Контакты<div class="decor"></div></a></li>
                     </ul>
                 </nav>
                 <ul class="ul">
                     <li class="item">
-                        <a href="mailto:info@devstudio.com" class="nav-link contact">
-                        info@devstudio.com
+                        <a href="mailto:info@devstudio.com" class=".header-mail nav-link contact">
+                            <svg class="header-mail icon">
+                                <use href="./img/symbol-defs1.svg#envelope">
+                                </use>
+                            </svg>
+                            info@devstudio.com
                         </a>
                     </li>
                     <li class="item">
                         <a href="tel:+380961111111" class="nav-link contact">
-                        +38 096 111 11 11
+                            <svg class="header-phone icon">
+                                <use href="./img/symbol-defs1.svg#smartphone">
+                                </use>
+                            </svg>
+                            +38 096 111 11 11
                         </a>
                     </li>
                 </ul>
@@ -38,9 +46,9 @@
         </header>
         <main class="main">
             <section>
-                <div class="hero-conteiner">
-                    <h1 class="header">Эффективные решения для вашего бизнеса</h1>
-                    <a href="" target="_blank" rel="noopener noreferrer" class="button">Заказать услугу</a>
+                <div class="hero-conteiner relative">
+                    <h1 class="header absolute">Эффективные решения для вашего бизнеса</h1>
+                    <a href="" target="_blank" rel="noopener noreferrer" class="button absolute">Заказать услугу</a>
                 </div>
             </section>
             <section class="section">
@@ -48,34 +56,42 @@
                     <h2 class="section-header">Особенности</h2>
                     <ul class=ul>
                         <li class="items">
-                            <svg class="icon">
-                                <use href="./img/symbol-defs.svg#antenna">
-                                </use>
-                            </svg>
+                            <div class="features-items">
+                                <svg class="icon">
+                                    <use href="./img/symbol-defs.svg#antenna">
+                                    </use>
+                                </svg>
+                            </div>
                             <p class="features">Внимание к деталям</p>
                             <p class="section-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                         </li>
                         <li class="items">
-                            <svg class="icon">
-                                <use href="./img/symbol-defs.svg#clock">
-                                </use>
-                            </svg>
+                            <div class="features-items">
+                                <svg class="icon">
+                                    <use href="./img/symbol-defs.svg#clock">
+                                    </use>
+                                </svg>
+                            </div>
                             <h3 class="features">Пунктуальность</h3>
                             <p class="section-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                         </li>
                         <li class="items">
-                            <svg class="icon">
-                                <use href="./img/symbol-defs.svg#diagram">
-                                </use>
-                            </svg>
+                            <div class="features-items">
+                                <svg class="icon">
+                                    <use href="./img/symbol-defs.svg#diagram">
+                                    </use>
+                                </svg>
+                            </div>
                             <h3 class="features">Планирование</h3>
                             <p class="section-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                         </li>
                         <li class="items">
-                            <svg class="icon">
-                                <use href="./img/symbol-defs.svg#astronaut">
-                                </use>
-                            </svg>
+                            <div class="features-items">
+                                <svg class="icon">
+                                    <use href="./img/symbol-defs.svg#astronaut">
+                                    </use>
+                                </svg>
+                            </div>
                             <h3 class="features">Современные технологии</h3>
                             <p class="section-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                         </li>
@@ -86,28 +102,28 @@
                 <div class="conteiner">
                     <h2 class="section-header">Чем мы занимаемся</h2>
                     <ul class="ul">
-                        <li class="we-do items">
-                                <!-- <img src="./img/noteboock.jpg" alt="" class="image"/> -->
-                                <!-- <img src="./img/bg1.jpg" alt=""class="image"/> -->
-                                <p class="features customize l">Десктопные приложения</p>
+                        <li class="items relative">
+                            <img src="./img/noteboock.jpg" alt=""/>
+                            <div class="absolute-layer"></div>
+                            <p class="features customize l absolute">Десктопные приложения</p>
                         </li>
-                        <li class="items">
-                                <img src="./img/mobile.jpg" alt="" class="image"/>
-                                <img src="./img/bg2.jpg" alt="" class="image"/>
-                                <p class="features customize">Мобильные приложения</p>
+                        <li class="items relative">
+                                <img src="./img/mobile.jpg" alt=""/>
+                                <div class="absolute-layer"></div>
+                                <p class="features customize l absolute">Мобильные приложения</p>
                         </li>
-                        <li class="items">
-                                <img src="./img/pc.jpg" alt="" class="image"/>
-                                <img src="./img/bg3.jpg" alt="" class="image"/>
-                                <p class="features customize">Дизайнерские решения</p>
+                        <li class="items relative">
+                                <img src="./img/pc.jpg" alt=""/>
+                                <div class="absolute-layer"></div>
+                                <p class="features customize l absolute">Дизайнерские решения</p>
                         </li>
                     </ul>
                 </div>
             </section>
             <section class="section">
-                <div class="conteiner team">
+                <div class="conteiner team relative">
                     <h2 class="section-header">Наша команда</h2>
-                    <h3 class="features customize">Дизайнерские решения</h3>
+                    <h3 class="features customize absolute desine-desisions">Дизайнерские решения</h3>
                     <ul class="ul">
                         <li class="items items-width">
                             <img src="./img/nik.jpg" alt="" class="photo-margin"/>
@@ -115,32 +131,32 @@
                             <p class="teammate-name section-text">Product Designer</p>
                             <ul class="ul">
                                 <li class="team-item">
-                                    <a href="" aria-label="ссылка на instagram" target="_blank" rel="noopener noreferrer">
-                                        <svg class="social-link icon">
+                                    <a href="" aria-label="ссылка на instagram" target="_blank" rel="noopener noreferrer" class="social-link">
+                                        <svg class="icon">
                                             <use href="./img/symbol-defs.svg#instagram">
                                             </use>
                                         </svg>
                                     </a>
                                 </li>
                                 <li class="team-item">
-                                    <a href="" aria-label="ссылка на twitter" target="_blank" rel="noopener noreferrer">
-                                        <svg class="social-link icon">
+                                    <a href="" aria-label="ссылка на twitter" target="_blank" rel="noopener noreferrer" class="social-link">
+                                        <svg class="icon">
                                             <use href="./img/symbol-defs.svg#twitter">
                                             </use>
                                         </svg>
                                     </a>
                                 </li>
                                 <li class="team-item">
-                                    <a href="" aria-label="ссылка на faceboock" target="_blank" rel="noopener noreferrer">
-                                        <svg class="social-link icon">
+                                    <a href="" aria-label="ссылка на faceboock" target="_blank" rel="noopener noreferrer" class="social-link">
+                                        <svg class="icon">
                                             <use href="./img/symbol-defs.svg#facebook">
                                             </use>
                                         </svg>
                                     </a>
                                 </li>
                                 <li class="team-item">
-                                    <a href="" aria-label="ссылка на linkedin" target="_blank" rel="noopener noreferrer">
-                                        <svg class="social-link icon">
+                                    <a href="" aria-label="ссылка на linkedin" target="_blank" rel="noopener noreferrer" class="social-link">
+                                        <svg class="icon">
                                             <use href="./img/symbol-defs.svg#linkedin">
                                             </use>
                                         </svg>
@@ -154,23 +170,35 @@
                             <p class="teammate-name section-text">Frontend Developer</p>
                             <ul class="ul">
                                 <li class="team-item">
-                                    <a href="" aria-label="ссылка на instagram" target="_blank" rel="noopener noreferrer" class="section-link">
-                                        Instagram
+                                    <a href="" aria-label="ссылка на instagram" target="_blank" rel="noopener noreferrer" class="social-link">
+                                        <svg class="icon">
+                                            <use href="./img/symbol-defs.svg#instagram">
+                                            </use>
+                                        </svg>
                                     </a>
                                 </li>
                                 <li class="team-item">
-                                    <a href="" aria-label="ссылка на twitter" target="_blank" rel="noopener noreferrer" class="section-link">
-                                        twitter
+                                    <a href="" aria-label="ссылка на twitter" target="_blank" rel="noopener noreferrer" class="social-link">
+                                        <svg class="icon">
+                                            <use href="./img/symbol-defs.svg#twitter">
+                                            </use>
+                                        </svg>
                                     </a>
                                 </li>
                                 <li class="team-item">
-                                    <a href="" aria-label="ссылка на faceboock" target="_blank" rel="noopener noreferrer" class="section-link">
-                                        faceboock
+                                    <a href="" aria-label="ссылка на faceboock" target="_blank" rel="noopener noreferrer" class="social-link">
+                                        <svg class="icon">
+                                            <use href="./img/symbol-defs.svg#facebook">
+                                            </use>
+                                        </svg>
                                     </a>
                                 </li>
                                 <li class="team-item">
-                                    <a href="" aria-label="ссылка на linkedin" target="_blank" rel="noopener noreferrer" class="section-link">
-                                        linkedin
+                                    <a href="" aria-label="ссылка на linkedin" target="_blank" rel="noopener noreferrer" class="social-link">
+                                        <svg class="icon">
+                                            <use href="./img/symbol-defs.svg#linkedin">
+                                            </use>
+                                        </svg>
                                     </a>
                                 </li>
                             </ul>
@@ -181,23 +209,35 @@
                             <p class="teammate-name section-text">Marketing</p>
                             <ul class="ul">
                                 <li class="team-item">
-                                    <a href="" aria-label="ссылка на instagram" target="_blank" rel="noopener noreferrer" class="section-link">
-                                        Instagram
+                                    <a href="" aria-label="ссылка на instagram" target="_blank" rel="noopener noreferrer" class="social-link">
+                                        <svg class="icon">
+                                            <use href="./img/symbol-defs.svg#instagram">
+                                            </use>
+                                        </svg>
                                     </a>
                                 </li>
                                 <li class="team-item">
-                                    <a href="" aria-label="ссылка на twitter" target="_blank" rel="noopener noreferrer" class="section-link">
-                                        twitter
+                                    <a href="" aria-label="ссылка на twitter" target="_blank" rel="noopener noreferrer" class="social-link">
+                                        <svg class="icon">
+                                            <use href="./img/symbol-defs.svg#twitter">
+                                            </use>
+                                        </svg>
                                     </a>
                                 </li>
                                 <li class="team-item">
-                                    <a href="" aria-label="ссылка на faceboock" target="_blank" rel="noopener noreferrer" class="section-link">
-                                        faceboock
+                                    <a href="" aria-label="ссылка на faceboock" target="_blank" rel="noopener noreferrer" class="social-link">
+                                        <svg class="icon">
+                                            <use href="./img/symbol-defs.svg#facebook">
+                                            </use>
+                                        </svg>
                                     </a>
                                 </li>
                                 <li class="team-item">
-                                    <a href="" aria-label="ссылка на linkedin" target="_blank" rel="noopener noreferrer" class="section-link">
-                                        linkedin
+                                    <a href="" aria-label="ссылка на linkedin" target="_blank" rel="noopener noreferrer" class="social-link">
+                                        <svg class="icon">
+                                            <use href="./img/symbol-defs.svg#linkedin">
+                                            </use>
+                                        </svg>
                                     </a>
                                 </li>
                             </ul>
@@ -208,23 +248,35 @@
                             <p class="teammate-name section-text">UI Designer</p>
                             <ul class="ul">
                                 <li class="team-item">
-                                    <a href="" aria-label="ссылка на instagram" target="_blank" rel="noopener noreferrer" class="section-link">
-                                        Instagram
+                                    <a href="" aria-label="ссылка на instagram" target="_blank" rel="noopener noreferrer" class="social-link">
+                                        <svg class="icon">
+                                            <use href="./img/symbol-defs.svg#instagram">
+                                            </use>
+                                        </svg>
                                     </a>
                                 </li>
                                 <li class="team-item">
-                                    <a href="" aria-label="ссылка на twitter" target="_blank" rel="noopener noreferrer" class="section-link">
-                                        twitter
+                                    <a href="" aria-label="ссылка на twitter" target="_blank" rel="noopener noreferrer" class="social-link">
+                                        <svg class="icon">
+                                            <use href="./img/symbol-defs.svg#twitter">
+                                            </use>
+                                        </svg>
                                     </a>
                                 </li>
                                 <li class="team-item">
-                                    <a href="" aria-label="ссылка на faceboock" target="_blank" rel="noopener noreferrer" class="section-link">
-                                        faceboock
+                                    <a href="" aria-label="ссылка на faceboock" target="_blank" rel="noopener noreferrer" class="social-link">
+                                        <svg class="icon">
+                                            <use href="./img/symbol-defs.svg#facebook">
+                                            </use>
+                                        </svg>
                                     </a>
                                 </li>
                                 <li class="team-item">
-                                    <a href="" aria-label="ссылка на linkedin" target="_blank" rel="noopener noreferrer" class="section-link">
-                                        linkedin
+                                    <a href="" aria-label="ссылка на linkedin" target="_blank" rel="noopener noreferrer" class="social-link">
+                                        <svg class="icon">
+                                            <use href="./img/symbol-defs.svg#linkedin">
+                                            </use>
+                                        </svg>
                                     </a>
                                 </li>
                             </ul>
@@ -238,32 +290,62 @@
                     <ul class="ul">
                         <li class="items">
                             <a href="" aria-label="./img/logo1.svg" target="_blank" rel="noopener noreferrer" class="section-link">
-                                Постоянный клиент1
+                                <div class="clients-items">
+                                    <svg class="clients-link icon">
+                                        <use href="./img/symbol-defs.svg#logo1">
+                                        </use>
+                                    </svg>
+                                </div>
                             </a>
                         </li>
                         <li class="items">
                             <a href="" aria-label="./img/logo2.svg" target="_blank" rel="noopener noreferrer" class="section-link">
-                                Постоянный клиент2
+                                <div class="clients-items">
+                                    <svg class="clients-link tagline icon">
+                                        <use href="./img/symbol-defs.svg#logo2">
+                                        </use>
+                                    </svg>
+                                </div>
                             </a>
                         </li>
                         <li class="items">
                             <a href="" aria-label="./img/logo3.svg" target="_blank" rel="noopener noreferrer" class="section-link">
-                                Постоянный клиент3
+                                <div class="clients-items">
+                                    <svg class="clients-link company icon">
+                                        <use href="./img/symbol-defs.svg#logo3">
+                                        </use>
+                                    </svg>
+                                </div>
                             </a>
                         </li>
                         <li class="items">
                             <a href="" aria-label="./img/logo4.svg" target="_blank" rel="noopener noreferrer" class="section-link">
-                                Постоянный клиент4
+                                <div class="clients-items">
+                                    <svg class="clients-link foster-peters icon">
+                                        <use href="./img/symbol-defs.svg#logo4">
+                                        </use>
+                                    </svg>
+                                </div>
                             </a>
                         </li>
                         <li class="items">
                             <a href="" aria-label="./img/logo5.svg" target="_blank" rel="noopener noreferrer" class="section-link">
-                                Постоянный клиент5
+                                <div class="clients-items">
+                                    <svg class="clients-link brand icon">
+                                        <use href="./img/symbol-defs.svg#logo5">
+                                        </use>
+                                    </svg>
+                                </div>
                             </a>
                         </li>
                         <li class="items">
                             <a href="" aria-label="./img/logo6.svg" target="_blank" rel="noopener noreferrer" class="section-link">
-                                Постоянный клиент6
+                                <div class="clients-items">
+                                    <svg class="clients-link tag-line icon">
+                                        <use href="./img/symbol-defs.svg#logo6">
+                                        </use>
+                                    </svg>
+                                </div>
                             </a>
                         </li>
                     </ul>
@@ -286,24 +368,36 @@
                 <div class="ul follow-us">
                     <h3 class="features ul">присоединяйтесь</h3>
                     <ul class="ul">
-                        <li class="footer-item">
-                            <a href="" aria-label="ссылка на instagram" target="_blank" rel="noopener noreferrer" class="section-link">
-                                Instagram
+                        <li class="team-item">
+                            <a href="" aria-label="ссылка на instagram" target="_blank" rel="noopener noreferrer" class="follow-us-link">
+                                <svg class="icon">
+                                    <use href="./img/symbol-defs.svg#instagram">
+                                    </use>
+                                </svg>
                             </a>
                         </li>
-                        <li class="footer-item">
-                            <a href="" aria-label="ссылка на twitter" target="_blank" rel="noopener noreferrer" class="section-link">
-                                twitter
+                        <li class="team-item">
+                            <a href="" aria-label="ссылка на twitter" target="_blank" rel="noopener noreferrer" class="follow-us-link">
+                                <svg class="icon">
+                                    <use href="./img/symbol-defs.svg#twitter">
+                                    </use>
+                                </svg>
                             </a>
                         </li>
-                        <li class="footer-item">
-                            <a href="" aria-label="ссылка на faceboock" target="_blank" rel="noopener noreferrer" class="section-link">
-                                faceboock
+                        <li class="team-item">
+                            <a href="" aria-label="ссылка на faceboock" target="_blank" rel="noopener noreferrer" class="follow-us-link">
+                                <svg class="icon">
+                                    <use href="./img/symbol-defs.svg#facebook">
+                                    </use>
+                                </svg>
                             </a>
                         </li>
-                        <li class="footer-item">
-                            <a href="" aria-label="ссылка на linkedin" target="_blank" rel="noopener noreferrer" class="section-link">
-                                linkedin
+                        <li class="team-item">
+                            <a href="" aria-label="ссылка на linkedin" target="_blank" rel="noopener noreferrer" class="follow-us-link">
+                                <svg class="icon">
+                                    <use href="./img/symbol-defs.svg#linkedin">
+                                    </use>
+                                </svg>
                             </a>
                         </li>
                     </ul>

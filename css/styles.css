@@ -307,6 +307,9 @@
     line-height: 1.88;
     /* outline: 2px solid tomato; */
 }
+.portfolio-link {
+    text-decoration: none;
+}
 .hover-text {
     color: var(--secondary-text-color);
     font-size: 18px;
@@ -324,7 +327,15 @@
     background-color: rgba(33, 150, 243, 0.9);
     opacity: 0;
 }
-.hover-block:hover {
+.techno-crak:hover .hover-block,
+.new-orlean:hover .hover-block,
+.seafood:hover .hover-block,
+.prime:hover .hover-block,
+.boxes:hover .hover-block,
+.inspiration:hover .hover-block,
+.limited-edition:hover .hover-block,
+.lab:hover .hover-block,
+.growing-business:hover .hover-block {
     background-color: rgba(33, 150, 243, 0.9);
     opacity: 1;
 }

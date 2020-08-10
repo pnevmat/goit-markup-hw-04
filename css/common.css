@@ -28,6 +28,7 @@ h1, h2, h3, h4, h5, h6, ul, p {
 ul {
     list-style: none;
 }
+
 /* logo style */
 .logo {
     color: var(--primary-page-color);
@@ -55,7 +56,7 @@ ul {
 .nav-link {
     display: block;
     padding-top: 32px;
-    padding-bottom: 32px;
+    padding-bottom: 31px;
 }
 .ul {
     display: flex;
@@ -118,9 +119,10 @@ ul {
 }
 .header-conteiner {
     margin: 0 auto 0 auto;
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
+    max-width: 1600px;
+    padding-left: 215px;
+    padding-right: 215px;
+    border-bottom: 1px solid #ECECEC;
     /* outline: 2px solid tomato; */
 }
 /* footer */
